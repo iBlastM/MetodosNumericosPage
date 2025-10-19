@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "MetodosNumericos",
   "resources": {
-    "hash": "sha256-r66PCDB4kOPti7r3cT0wJo7Q+fkrQfgfSGebLGNf/Pk=",
+    "hash": "sha256-Rs4/RaPnK4QHfRY9Pi5FHoAh4vbtzl/mxzTNnwUl8lk=",
     "fingerprinting": {
-      "LibreriaComponentesMetodosNumericos.e1g90yquvq.wasm": "LibreriaComponentesMetodosNumericos.wasm",
+      "LibreriaComponentesMetodosNumericos.yex5etw8gc.wasm": "LibreriaComponentesMetodosNumericos.wasm",
       "MathJaxBlazor.p6ulmaf7ls.wasm": "MathJaxBlazor.wasm",
       "MetodosIntegracion.vd9x4tqllv.wasm": "MetodosIntegracion.wasm",
       "MetodosInterpolacion.6wxgbtfi7p.wasm": "MetodosInterpolacion.wasm",
@@ -81,7 +81,7 @@
       "System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg="
     },
     "assembly": {
-      "LibreriaComponentesMetodosNumericos.e1g90yquvq.wasm": "sha256-cqG6C7VjPFEwuQunywuVeOnM/cNhMW6YoS1Qak3NT3E=",
+      "LibreriaComponentesMetodosNumericos.yex5etw8gc.wasm": "sha256-lmVcoUXpHea0qvsbv9TfFOlcz6e40tcizH60wY8sMfU=",
       "MathJaxBlazor.p6ulmaf7ls.wasm": "sha256-EXpYXqugNJtp1u5qnDKMDRhx03gSsum4RJdciSdjvh4=",
       "MetodosIntegracion.vd9x4tqllv.wasm": "sha256-PVqJLNsiMVKIbZPyntPUQhG0HX72FVfLT5HR0sJWTGw=",
       "MetodosInterpolacion.6wxgbtfi7p.wasm": "sha256-lv73+PEHk4wVMepVyXTzuz7pYVDyceblh5Ewp6+03Gw=",
