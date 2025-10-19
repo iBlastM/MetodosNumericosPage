@@ -1,0 +1,322 @@
+/* _content/LibreriaComponentesMetodosNumericos/Componentes/Actividad2.razor.rz.scp.css */
+html[b-j7yr2ncmw1], body[b-j7yr2ncmw1] {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Contenedor principal */
+#cont[b-j7yr2ncmw1] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Contenedor de controles */
+#controls[b-j7yr2ncmw1] {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    border: solid black 2px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+/* Métodos y funciones */
+.methods[b-j7yr2ncmw1] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid rgba(0, 0,0,0.5) 1px;
+}
+
+.fnc[b-j7yr2ncmw1] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Botones */
+.btnfn[b-j7yr2ncmw1], .btnmtd[b-j7yr2ncmw1], .btng[b-j7yr2ncmw1] {
+    width: 100%;
+    max-width: 120px;
+    height: 40px;
+    background-color: rgb(141, 209, 38);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+    .btnfn:hover[b-j7yr2ncmw1], .btnmtd:hover[b-j7yr2ncmw1], .btng:hover[b-j7yr2ncmw1] {
+        transform: scale(1.05);
+    }
+
+/* Botones de graficar */
+.btng[b-j7yr2ncmw1] {
+    background-color: rgb(205, 165, 250);
+    font-weight: 600;
+}
+
+/* Inputs */
+input[b-j7yr2ncmw1] {
+    border-radius: 6px;
+    border: solid rgb(141, 209, 38) 1px;
+    padding: 5px;
+    width: 100%;
+    max-width: 120px;
+    text-align: center;
+}
+
+#parameters .cont[b-j7yr2ncmw1] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Contenedor de la gráfica */
+#graph-container[b-j7yr2ncmw1] {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Ajustes para el canvas */
+canvas[b-j7yr2ncmw1] {
+    width: 100% !important; /* Que use todo el ancho disponible */
+    height: 400px !important; /* Fijar una altura mínima para que no se vea pequeña */
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Sección de tabla */
+#cont-t[b-j7yr2ncmw1] {
+    width: 100%;
+    padding: 20px;
+    overflow-x: auto; /* Agregar scroll horizontal en móviles */
+}
+
+/* Tablas */
+table[b-j7yr2ncmw1] {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid black 2px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* Scroll horizontal para la tabla en pantallas pequeñas */
+#cont-t[b-j7yr2ncmw1] {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+th[b-j7yr2ncmw1], td[b-j7yr2ncmw1] {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th[b-j7yr2ncmw1] {
+    background-color: rgb(141, 209, 38);
+}
+
+/* Bordes redondeados solo en las esquinas exteriores */
+tr:first-child th:first-child[b-j7yr2ncmw1] {
+    border-top-left-radius: 10px;
+}
+
+tr:first-child th:last-child[b-j7yr2ncmw1] {
+    border-top-right-radius: 10px;
+}
+
+tr:last-child td:first-child[b-j7yr2ncmw1] {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child[b-j7yr2ncmw1] {
+    border-bottom-right-radius: 10px;
+}
+
+/* Etiquetas de información */
+#lbl[b-j7yr2ncmw1] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Elementos de polinomios */
+.pol-item[b-j7yr2ncmw1] {
+    background-color: rgb(141, 209, 38);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: small;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+    .pol-item:hover[b-j7yr2ncmw1] {
+        transform: scale(1.1);
+        background-color: black;
+    }
+
+/* --- RESPONSIVIDAD --- */
+
+/* Para pantallas menores a 768px (tablets y móviles) */
+@media (max-width: 768px) {
+    #cont[b-j7yr2ncmw1] {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #controls[b-j7yr2ncmw1] {
+        width: 90%;
+    }
+
+    .btnfn[b-j7yr2ncmw1], .btnmtd[b-j7yr2ncmw1], .btng[b-j7yr2ncmw1] {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    input[b-j7yr2ncmw1] {
+        width: 100%;
+    }
+
+    table[b-j7yr2ncmw1] {
+        width: 100%;
+    }
+
+    #graph-container[b-j7yr2ncmw1] {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    canvas[b-j7yr2ncmw1] {
+        width: 100% !important;
+        height: 300px !important; /* Altura un poco menor en móviles */
+    }
+}
+
+/* Para pantallas menores a 480px (móviles pequeños) */
+@media (max-width: 480px) {
+    .btnfn[b-j7yr2ncmw1], .btnmtd[b-j7yr2ncmw1], .btng[b-j7yr2ncmw1] {
+        max-width: 100%;
+    }
+
+    input[b-j7yr2ncmw1] {
+        max-width: 100%;
+    }
+
+    canvas[b-j7yr2ncmw1] {
+        height: 250px !important; /* Evitar que se haga demasiado grande en móviles */
+    }
+
+    table[b-j7yr2ncmw1] {
+        font-size: 14px; /* Reduce el tamaño de la fuente para que quepa mejor */
+    }
+}
+/* _content/LibreriaComponentesMetodosNumericos/Componentes/Actividad3.razor.rz.scp.css */
+/* Estilos para el formulario */
+.card-form[b-jadov20irs] {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaciado entre los inputs */
+.form-group[b-jadov20irs] {
+    margin-bottom: 15px;
+}
+
+/* Tamaño del botón */
+.btn-submit[b-jadov20irs] {
+    width: 100%;
+}
+
+/* Tabla estilizada */
+.table-container[b-jadov20irs] {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table-custom[b-jadov20irs] {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-custom th[b-jadov20irs] {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+    }
+
+    .table-custom td[b-jadov20irs], .table-custom th[b-jadov20irs] {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .table-custom tbody tr:nth-child(even)[b-jadov20irs] {
+        background-color: #f8f9fa;
+    }
+
+.col-seleccionar[b-jadov20irs] {
+    width: 5%; /* Reduciendo el ancho de la columna de selección */
+    text-align: center;
+}
+
+/* Estilos para la sección de interpolación */
+.interpolation-options[b-jadov20irs] {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el select de múltiples opciones */
+select.form-control[multiple][b-jadov20irs] {
+    height: 120px;
+}
+/* _content/LibreriaComponentesMetodosNumericos/Componentes/Actividad4.razor.rz.scp.css */
+/* Estilos para el formulario */
+.card-form[b-87gfbbxll2] {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de solucion */
+.solutionn-options[b-87gfbbxll2] {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el select de múltiples opciones */
+select.form-control[multiple][b-87gfbbxll2] {
+    height: 120px;
+}
+
