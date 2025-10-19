@@ -1,13 +1,13 @@
 {
   "mainAssemblyName": "MetodosNumericos",
   "resources": {
-    "hash": "sha256-8SGyFF8jSpFRsUe7Xxb/AgsAuxCy0Ef6Io8ldOobSEw=",
+    "hash": "sha256-r66PCDB4kOPti7r3cT0wJo7Q+fkrQfgfSGebLGNf/Pk=",
     "fingerprinting": {
-      "LibreriaComponentesMetodosNumericos.1tao4819te.wasm": "LibreriaComponentesMetodosNumericos.wasm",
+      "LibreriaComponentesMetodosNumericos.e1g90yquvq.wasm": "LibreriaComponentesMetodosNumericos.wasm",
       "MathJaxBlazor.p6ulmaf7ls.wasm": "MathJaxBlazor.wasm",
       "MetodosIntegracion.vd9x4tqllv.wasm": "MetodosIntegracion.wasm",
       "MetodosInterpolacion.6wxgbtfi7p.wasm": "MetodosInterpolacion.wasm",
-      "MetodosNumericos.3tgo7wtfyd.wasm": "MetodosNumericos.wasm",
+      "MetodosNumericos.7lu0xsx78b.wasm": "MetodosNumericos.wasm",
       "Microsoft.AspNetCore.Components.Forms.1iqg1y8ovs.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.wor5oa5qua.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.a1n8xt2fe7.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -81,11 +81,11 @@
       "System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg="
     },
     "assembly": {
-      "LibreriaComponentesMetodosNumericos.1tao4819te.wasm": "sha256-S78ubzz+0+KS/NEWvK4HlFSKKvd6MsZsBl8rPQCYlsU=",
+      "LibreriaComponentesMetodosNumericos.e1g90yquvq.wasm": "sha256-cqG6C7VjPFEwuQunywuVeOnM/cNhMW6YoS1Qak3NT3E=",
       "MathJaxBlazor.p6ulmaf7ls.wasm": "sha256-EXpYXqugNJtp1u5qnDKMDRhx03gSsum4RJdciSdjvh4=",
       "MetodosIntegracion.vd9x4tqllv.wasm": "sha256-PVqJLNsiMVKIbZPyntPUQhG0HX72FVfLT5HR0sJWTGw=",
       "MetodosInterpolacion.6wxgbtfi7p.wasm": "sha256-lv73+PEHk4wVMepVyXTzuz7pYVDyceblh5Ewp6+03Gw=",
-      "MetodosNumericos.3tgo7wtfyd.wasm": "sha256-6R323Y+wjhHbxG6jMg2gHMVAqvhH0UNwzqcyQOziqEI=",
+      "MetodosNumericos.7lu0xsx78b.wasm": "sha256-2xtB5SbIjvQ31YsnP5Vwa53MBylTpQpEGKVpEZZawEI=",
       "Microsoft.AspNetCore.Components.Forms.1iqg1y8ovs.wasm": "sha256-1ywzoD82AvTf5WAMY1I9yPGxFCuyUPi/326EPEem4Cg=",
       "Microsoft.AspNetCore.Components.wor5oa5qua.wasm": "sha256-cGt5rgnu1vcZszqOPbgW3dPnpkFHxzkdUzrv/0ClvYg=",
       "Microsoft.AspNetCore.Components.Web.a1n8xt2fe7.wasm": "sha256-nlsmUv3eGE8vTXAduH0bo3CF1uxwUitS3ROz4wxg1DE=",
